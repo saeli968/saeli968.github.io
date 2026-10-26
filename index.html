@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyCar Cost — Applicazione personale</title>
+<meta name="description" content="MyCar Cost: applicazione personale locale e integrazione Gmail in sola lettura per le fatture Limeon.">
+<style>body{font-family:system-ui,sans-serif;line-height:1.65;color:#182b36;background:#f5f8fa;margin:0}main{max-width:760px;margin:auto;padding:48px 24px}h1,h2{line-height:1.2}h1{font-size:2.5rem}h2{margin-top:2rem}a{color:#075a96}nav,footer{margin-top:2rem}footer{font-size:.9rem;color:#465762}code{overflow-wrap:anywhere}</style>
+</head>
+<body>
+<main>
+<h1>MyCar Cost</h1>
+<p>Applicazione personale per comprendere i costi di utilizzo dell’auto, delle ricariche e dell’energia domestica.</p>
+<h2>Uso personale e installazione locale</h2>
+<p>MyCar Cost viene eseguita nell’installazione Home Assistant del proprietario. È destinata al suo uso personale e non offre iscrizioni o un servizio al pubblico. Questo sito contiene soltanto informazioni sull’applicazione e sul trattamento dei dati.</p>
+<h2>Integrazione Gmail e fatture Limeon</h2>
+<p>L’integrazione facoltativa utilizza il consenso Google OAuth e il solo ambito <code>https://www.googleapis.com/auth/gmail.readonly</code> per cercare le email dei mittenti Limeon configurati, leggere gli allegati PDF e ricavare i dati necessari al calcolo delle tariffe energetiche. Il POD configurato viene confrontato con quello presente nelle fatture.</p>
+<p>Il permesso Google consente la lettura della casella: il filtro per mittente e POD è applicato da MyCar Cost e non restringe tecnicamente il permesso OAuth alle sole fatture. L’integrazione non può inviare, modificare o eliminare messaggi.</p>
+<p>Il consenso avviene nel browser tramite Google. Questo sito non richiede l’accesso a Gmail, non riceve token e non ospita l’applicazione o i suoi dati.</p>
+<nav aria-label="Informazioni"><a href="privacy.html">Privacy policy di MyCar Cost</a></nav>
+<footer>MyCar Cost · Progetto personale indipendente, non affiliato a Google, GitHub o Limeon.</footer>
+</main>
+</body>
+</html>
